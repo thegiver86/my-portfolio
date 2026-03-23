@@ -1,2 +1,2 @@
 Real Google IP: 172.217.215.139
-Hidden Service Header: [HEADER]
+Hidden Service Header: nginx/1.24.0 (Ubuntu)
