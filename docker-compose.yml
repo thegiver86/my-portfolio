@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress
+    networks:
+      # Which TWO hallways does WordPress need access to?
+      - frontend
+      - backend
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    networks:
+      # Which SINGLE hallway keeps the DB isolated?
+      - backend
+
+networks:
+  frontend:
+  backend:
+    internal: true #  "Air-Gap" lock!
