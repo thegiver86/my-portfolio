@@ -1,0 +1,13 @@
+titan.local
+  type: kerberos
+  realm-name: TITAN.LOCAL
+  domain-name: titan.local
+  configured: no
+  server-software: active-directory
+  client-software: sssd
+  required-package: sssd-tools
+  required-package: sssd
+  required-package: libnss-sss
+  required-package: libpam-sss
+  required-package: adcli
+  required-package: samba-common-bin
