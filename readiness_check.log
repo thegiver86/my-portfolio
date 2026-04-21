@@ -1,0 +1,15 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: turtle
+Date: April 21, 2026
+
+Confidence Audit (Yes/No):
+1. Nmap (Network Scanning): [Y]
+2. Docker (Containerization): [Y]
+3. Linux Hardening (UFW/chmod): [Y]
+4. VS Code Remote-SSH: [Y]
+
+Identify your weakest area and your plan to review it:
+Linux permissions and octal math. I will review chmod numbers for the Forge Final. As well as Containerization
+==================================================
