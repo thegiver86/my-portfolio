@@ -1,0 +1,13 @@
+proxychains nmap -sT -Pn -p 6379 10.0.9.50 
+[proxychains] config file found: /etc/proxychains4.conf
+[proxychains] preloading /usr/lib/x86_64-linux-gnu/libproxychains.so.4
+[proxychains] DLL init: proxychains-ng 4.17
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-21 10:40 UTC
+[proxychains] Strict chain  ...  127.0.0.1:9050  ...  timeout
+Nmap scan report for 10.0.9.50
+Host is up (0.00060s latency).
+
+PORT     STATE  SERVICE
+6379/tcp closed redis
+
+Nmap done: 1 IP address (1 host up) scanned in 0.08 seconds
