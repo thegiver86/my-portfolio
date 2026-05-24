@@ -1,0 +1,18 @@
+==================================================
+SESSION 27: API SECURITY AUDIT LOG
+==================================================
+
+1. BOLA (ID SWAP) EXPLOITATION
+* Targeted User ID: [102]
+* Private Information Leaked: [TITAN_MASTER_KEY_2026]
+
+2. BUSINESS LOGIC EXPLOITATION (DISCOUNT HUNTER)
+* Hidden Discount Code Discovered: [9912]
+* Method Used: [I used a Bash for loop to perform an automated brute-force attack against the API endpoint (/api/v1/checkout). The loop iterated through the numerical range 9900–9999, sending a POST request for each iteration with a JSON payload. I monitored the server responses and used an if condition to identify the specific payload that returned the "100% OFF" success message, successfully identifying the hidden discount code through automated enumeration.]
+
+3. REMEDIATION RECOMMENDATION
+* How would you fix the BOLA vulnerability?
+Answer: I would implement Robust Authorization Checks. The API must not rely on the user-supplied ID alone. Instead, it must check the user_id stored in the secure server-side session (or JWT) against the ID being requested. If the requester is not the owner of the resource or does not have administrative privileges, the API must return a 403 Forbidden status code.
+
+* How would you fix the Brute-Force vulnerability in the discount field?
+Answer: I would implement Rate Limiting and Account Lockout/Throttling. The server should track the number of requests per IP address. If an IP exceeds a reasonable number of requests (e.g., 5-10 failed attempts) within a short timeframe, the server should block subsequent attempts from that IP for a cooldown period. This renders brute-force attacks computationally infeasible.
