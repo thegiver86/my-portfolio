@@ -41,7 +41,7 @@
 <br>
 
 **Objective:** Multi-tier infrastructure deployment and disaster recovery.
-* **Operational Proof:** See [image_23789b.png](image_23789b.png) for visual proof of the operational environment post-remediation.
+* **Operational Proof:** See [image_23789b.png](image_23789b.png) for the visual state of the environment post-remediation.
 * **Recovery:** Successfully navigated a physical `VERR_DISK_FULL` crash by purging corrupted Docker caches.
 </details>
 
