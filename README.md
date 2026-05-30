@@ -15,37 +15,34 @@
 
 ---
 
-## 📂 Phase 1 Operations Log
+![Phase 1 Operations Log](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=00FF88&center=true&width=500&lines=Phase+1+Operations+Log)
 
-This repository serves as my living artifact cache for Phase 1 of the TKH Innovation Fellowship. 
-
-| Week | Operation Domain | Key Technologies / Concepts |
-| :---: | :--- | :--- |
-| **01** | Linux Fundamentals & FHS Navigation | `bash`, `chmod`, `grep`, `awk`, Privilege Escalation |
-| **02** | Network Architecture & Subnetting | `ip route`, CIDR, TCP 3-Way Handshake, DNS Poisoning |
-| **03** | Python Security Automation | `socket`, `subprocess`, Automated Log Parsing |
-| **04** | Virtualization & Container Security | `Docker`, `docker-compose`, Network Air-Gapping |
-| **05** | Identity & Access Management (IAM) | Active Directory, Windows Server Core, GPOs |
-| **06** | **Midterm Capstone** | Infrastructure Hardening, Disaster Recovery |
-| **07** | Reconnaissance & OSINT | `nmap`, `Shodan`, `Sublist3r`, Threat Profiling |
-| **08** | Exploitation & Privilege Escalation | `Metasploit`, SUID Binaries, Reverse Shells |
-| **09** | Web Application Security | SQL Injection (SQLi), Cross-Site Scripting (XSS), BOLA |
-| **10** | DFIR & Threat Hunting | `ELK Stack`, Sleuth Kit (`fls`, `icat`), Disk Carving |
-| **11** | Active Defense (Defense in Depth) | `Suricata IDS`, `Sysmon EDR`, `iptables` |
-| **12** | **End of Phase Project (TEPP)** | Full Kill-Chain Execution, Incident Response |
+| Week | Status | Operation Domain |
+| :---: | :---: | :--- |
+| **01** | ✅ | Linux Fundamentals & FHS Navigation |
+| **02** | ✅ | Network Architecture & Subnetting |
+| **03** | ✅ | Python Security Automation |
+| **04** | ✅ | Virtualization & Container Security |
+| **05** | ✅ | Identity & Access Management (IAM) |
+| **06** | ✅ | **Midterm Capstone** |
+| **07** | ✅ | Reconnaissance & OSINT |
+| **08** | ✅ | Exploitation & Privilege Escalation |
+| **09** | ✅ | Web Application Security |
+| **10** | ✅ | DFIR & Threat Hunting |
+| **11** | ✅ | Active Defense (Defense in Depth) |
+| **12** | ✅ | **End of Phase Project (TEPP)** |
 
 ---
 
-## 🏆 Featured Capstones
+![Featured Capstones](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0055&center=true&width=500&lines=Featured+Capstones)
 
 <details>
-<summary><b>🛡️ The Hardened Outpost (Midterm Capstone)</b></summary>
+<summary><b>🛡️ The Hardened Outpost (Midterm)</b></summary>
 <br>
 
-**Objective:** Stand up, secure, and automate a multi-tier containerized infrastructure.
-* **Perimeter Security:** Hardened SSH (`PermitRootLogin no`) and deployed a `default-deny` UFW policy.
-* **Containerized Air-Gapping:** Architected a Docker Compose stack featuring Nginx and MySQL.
-* **Incident Evidence:** Refer to image_23789b.png for visual proof of the operational environment during the recovery phase.
+**Objective:** Multi-tier infrastructure deployment and disaster recovery.
+* **Operational Proof:** See [image_23789b.png](image_23789b.png) for visual proof of the operational environment post-remediation.
+* **Recovery:** Successfully navigated a physical `VERR_DISK_FULL` crash by purging corrupted Docker caches.
 </details>
 
 <details>
@@ -61,23 +58,24 @@ This repository serves as my living artifact cache for Phase 1 of the TKH Innova
 <summary><b>⚔️ The Final Reckoning (TEPP)</b></summary>
 <br>
 
-**Objective:** Execute a complete cyber kill chain across a multi-subnet range.
-* **Execution:** Leveraged Nmap, Hydra, and Command Injection to gain a root reverse shell.
-* **Blue Team:** Extracted forensic footprints and deployed strategic `iptables` rules to permanently isolate the compromised endpoints.
+**Objective:** Execute a complete cyber kill chain.
+* **Execution:** Leveraged Command Injection to gain a root reverse shell.
+* **Blue Team:** Extracted forensic footprints and deployed strategic `iptables` rules.
 </details>
 
 ---
 
-## 💻 Tactical Stack
-
-**CLI & Shell:** `bash`, `awk`, `sed`, `grep`, `find`, `ss`, `chmod`  
-**Infrastructure & Networking:** `Docker`, `Docker Compose`, `UFW`, `iptables`  
-**Offensive & OSINT:** `nmap`, `Metasploit`, `Hydra`, `Sublist3r`, `Shodan`  
-**Defensive:** `Suricata IDS`, `Sysmon EDR`, `ELK Stack / Kibana`  
+![Tactical Stack](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0000&center=true&width=500&lines=Tactical+Stack)
 
 <div align="center">
+
+**CLI & Shell:** `bash` · `awk` · `sed` · `grep` · `find`  
+**Infrastructure:** `Docker` · `Compose` · `UFW` · `iptables`  
+**Offensive:** `nmap` · `Metasploit` · `Hydra` · `Sublist3r`  
+**Defensive:** `Suricata` · `Sysmon` · `ELK`
+
 <br>
   
-![Visitor Count](https://profile-counter.glitch.me/thegiver86/count.svg)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fthegiver86%2Fmy-portfolio&count_bg=%23FF0000&title_bg=%23555555&icon=linux.svg&icon_color=%23E7E7E7&title=operator+hits&edge_flat=false)
 
 </div>
