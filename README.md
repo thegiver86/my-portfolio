@@ -4,18 +4,20 @@
 
 ![Terminal Identity](https://coolreadme.xyz/api/hacker?user=thegiver86&status=OPERATOR+ONLINE&accent=%2300FF88)
 
+![Pulsing Tagline](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&color=FDFD96&center=true&width=400&lines=The+system+is+yours.+Do+not+fear+the+dark.)
+
 [![Security](https://img.shields.io/badge/Security-Blue_Team_%7C_Red_Team-00FF88?style=for-the-badge&logo=tryhackme&logoColor=black)](#) 
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu_%7C_Alpine-black?style=for-the-badge&logo=linux&logoColor=white)](#) 
 [![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#) 
 [![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
 
-> *"The system is yours. Do not fear the dark."*
-
 </div>
 
 ---
 
-![Phase 1 Operations Log](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=00FF88&center=true&width=500&lines=Phase+1+Operations+Log)
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=00FF88&center=true&width=500&lines=Phase+1+Operations+Log" alt="Phase 1 Operations Log">
+</div>
 
 | Week | Status | Operation Domain |
 | :---: | :---: | :--- |
@@ -34,14 +36,16 @@
 
 ---
 
-![Featured Capstones](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0055&center=true&width=500&lines=Featured+Capstones)
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0055&center=true&width=500&lines=Featured+Capstones" alt="Featured Capstones">
+</div>
 
 <details>
 <summary><b>🛡️ The Hardened Outpost (Midterm)</b></summary>
 <br>
 
 **Objective:** Multi-tier infrastructure deployment and disaster recovery.
-* **Operational Proof:** See [image_23789b.png](image_23789b.png) for the visual state of the environment post-remediation.
+* **Operational Proof:** See [image_23789b.png](image_23789b.png) for visual proof of the operational environment post-remediation.
 * **Recovery:** Successfully navigated a physical `VERR_DISK_FULL` crash by purging corrupted Docker caches.
 </details>
 
@@ -65,9 +69,9 @@
 
 ---
 
-![Tactical Stack](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0000&center=true&width=500&lines=Tactical+Stack)
-
 <div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&color=FF0000&center=true&width=500&lines=Tactical+Stack" alt="Tactical Stack">
+<br>
 
 **CLI & Shell:** `bash` · `awk` · `sed` · `grep` · `find`  
 **Infrastructure:** `Docker` · `Compose` · `UFW` · `iptables`  
@@ -75,7 +79,5 @@
 **Defensive:** `Suricata` · `Sysmon` · `ELK`
 
 <br>
-  
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fthegiver86%2Fmy-portfolio&count_bg=%23FF0000&title_bg=%23555555&icon=linux.svg&icon_color=%23E7E7E7&title=operator+hits&edge_flat=false)
-
+<img src="https://visitor-badge.laobi.icu/badge?page_id=thegiver86.my-portfolio" alt="Visitor Badge">
 </div>
