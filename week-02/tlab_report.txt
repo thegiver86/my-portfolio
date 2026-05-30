@@ -1,0 +1,16 @@
+OPERATION BLACKOUT REPORT
+
+Task 1: subnet remediation
+- problem: Host trapped in 192.168.10.150/26
+- fix: Flushed interface and re-assigned 192.168.10.150/24 to restore gateway 
+
+Task 2: routing restoration 
+-problem: Routing table was flushed (no default gateway). 
+-Fix: Executed 'sudi ip route add default via 192.168.10.1'
+
+Task 3: DNS Purge 
+-Problem: /etc/hosts poisoned with 10.99.99.99 for secure.titancorp.com
+Fix: Removed poisoned entry and mapped secure.titancorp.com to 192.168.10.193
+
+Observation: 
+Logic verified via manual configuration. Layer 1 connectivity (ARP) timed out due to virtual env isolation (No second machine/server to respond to request); however, L3 and L7 remediation was successfully completed and verified via local OOB machine. 
