@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Initializing+Operator+Environment...;Access+Granted:+Marcos+Cruz;Cybersecurity+Engineer+%7C+TKH+Class+of+2026)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=600&lines=Initializing+Operator+Environment...;Access+Granted:+MC;Cybersecurity+Engineer+%7C+TKH+Class+of+2026)](https://git.io/typing-svg)
 
 ![Terminal Identity](https://coolreadme.xyz/api/hacker?user=thegiver86&status=OPERATOR+ONLINE&accent=%2300FF88)
 
@@ -17,7 +17,7 @@
 
 ## 📂 Phase 1 Operations Log
 
-This repository serves as my living artifact cache for Phase 1 of the TKH Innovation Fellowship. It documents my progression through systems architecture, offensive exploitation, and active defense.
+This repository serves as my living artifact cache for Phase 1 of the TKH Innovation Fellowship. 
 
 | Week | Operation Domain | Key Technologies / Concepts |
 | :---: | :--- | :--- |
@@ -44,8 +44,8 @@ This repository serves as my living artifact cache for Phase 1 of the TKH Innova
 
 **Objective:** Stand up, secure, and automate a multi-tier containerized infrastructure.
 * **Perimeter Security:** Hardened SSH (`PermitRootLogin no`) and deployed a `default-deny` UFW policy.
-* **Containerized Air-Gapping:** Architected a Docker Compose stack featuring Nginx and MySQL. Ensured the database had zero external routing by placing it on an `internal: true` network.
-* **Real-World Incident Response:** Overcame a physical hypervisor crash during deployment by identifying corrupted image metadata, purging the Docker cache, and executing a clean redeployment.
+* **Containerized Air-Gapping:** Architected a Docker Compose stack featuring Nginx and MySQL.
+* **Incident Evidence:** Refer to image_23789b.png for visual proof of the operational environment during the recovery phase.
 </details>
 
 <details>
@@ -53,17 +53,17 @@ This repository serves as my living artifact cache for Phase 1 of the TKH Innova
 <br>
 
 **Objective:** Deploy a local ELK stack to ingest enterprise logs and reconstruct a full breach timeline.
-* **Forensic Extraction:** Utilized the Sleuth Kit to interrogate raw disk images, locating orphaned inodes to prove malware was executing purely in volatile memory.
-* **Log Correlation:** Queried Kibana (KQL) to track an adversary from an initial web server POST request, through lateral movement via Windows Event ID 4624, to final data exfiltration.
+* **Forensic Extraction:** Utilized Sleuth Kit tools to interrogate raw disk images, locating orphaned inodes to prove malware was executing purely in volatile memory.
+* **Log Correlation:** Queried Kibana (KQL) to track an adversary from an initial web server POST request through final data exfiltration.
 </details>
 
 <details>
 <summary><b>⚔️ The Final Reckoning (TEPP)</b></summary>
 <br>
 
-**Objective:** Execute a complete cyber kill chain across a multi-subnet range, followed immediately by Blue Team remediation.
-* **Offensive Operations:** Mapped the network with Nmap, brute-forced SSH with Hydra, and exploited a custom Python Command Injection vulnerability via URL encoding to gain a root reverse shell.
-* **Defensive Operations:** Transitioned to incident response by extracting forensic footprints (PIDs, User-Agents) from application logs and deploying strategic `iptables` rules to permanently isolate the compromised endpoints.
+**Objective:** Execute a complete cyber kill chain across a multi-subnet range.
+* **Execution:** Leveraged Nmap, Hydra, and Command Injection to gain a root reverse shell.
+* **Blue Team:** Extracted forensic footprints and deployed strategic `iptables` rules to permanently isolate the compromised endpoints.
 </details>
 
 ---
