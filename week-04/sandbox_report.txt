@@ -1,0 +1,10 @@
+==================================================
+SESSION 10: SANDBOX DETONATION REPORT
+Operator: turtle
+==================================================
+
+QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
+ANSWER: [The Ping to google.com was not successful]
+
+QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
+ANSWER: [Using bridged mode allows the infected VM to appear as a physical device on your network. This gives the threat a path to scan, spread, and attack other live local systems. This can allow the malware to bypass the host's isolation, now it can bypass internal firewalls instead of staying contained.]
