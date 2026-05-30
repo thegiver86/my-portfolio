@@ -1,3 +1,0 @@
-Samba Conquest - Partial Completion
-Module: exploit/multi/samba/usermap_script
-Result: Exploit completed, but no session created. Suspected Docker/Hypervisor routing failure.
